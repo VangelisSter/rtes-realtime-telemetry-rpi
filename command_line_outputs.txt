@@ -1,0 +1,401 @@
+Sep 19 22:12:46 BlueRocky systemd[1]: Started rtes.service - RTES 24-Hour Telemetry Service.
+Sep 19 22:12:46 BlueRocky rtes_telemetry[900]: [MONITOR] Real-time scheduling SCHED_FIFO (priority 80) enabled.
+Sep 19 22:12:46 BlueRocky rtes_telemetry[900]: [2026/09/19 22:12:46:5829] N: lws_create_context: LWS: 4.3.5-unknown, NET CLI SRV H1 H2 WS ConMon IPV6-on
+Sep 19 22:12:47 BlueRocky rtes_telemetry[900]: [2026/09/19 22:12:46:5958] N: __lws_lc_tag:  ++ [wsi|0|pipe] (1)
+Sep 19 22:12:47 BlueRocky rtes_telemetry[900]: [2026/09/19 22:12:46:5971] N: __lws_lc_tag:  ++ [vh|0|netlink] (1)
+Sep 19 22:12:47 BlueRocky rtes_telemetry[900]: [2026/09/19 22:12:46:6139] N: __lws_lc_tag:  ++ [vh|1|default||-1] (2)
+Sep 19 22:12:47 BlueRocky rtes_telemetry[900]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 19 22:12:47 BlueRocky rtes_telemetry[900]: [2026/09/19 22:12:47:0378] N: __lws_lc_tag:  ++ [wsicli|0|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 19 22:13:14 BlueRocky rtes_telemetry[900]: [2026/09/19 22:13:14:0836] N: lws_gate_accepts: on = 0
+Sep 19 22:13:14 BlueRocky rtes_telemetry[900]: [2026/09/19 22:13:14:3048] N: lws_gate_accepts: on = 0
+Sep 19 22:13:14 BlueRocky rtes_telemetry[900]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 19 23:45:19 BlueRocky rtes_telemetry[900]: [2026/09/19 23:45:19:0399] N: __lws_lc_untag:  -- [wsi|0|pipe] (0) 1.536hr
+Sep 19 23:45:19 BlueRocky rtes_telemetry[900]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 19 23:45:19 BlueRocky rtes_telemetry[900]: [2026/09/19 23:45:19:0406] N: lws_gate_accepts: on = 0
+Sep 19 23:45:19 BlueRocky rtes_telemetry[900]: [2026/09/19 23:45:19:0635] N: __lws_lc_untag:  -- [vh|1|default||-1] (1) 1.536hr
+Sep 19 23:45:19 BlueRocky rtes_telemetry[900]: [2026/09/19 23:45:19:0637] N: __lws_lc_untag:  -- [wsicli|0|WS/h1/default/jetstream1.us-east.bsky.network] (0) 1.536hr
+Sep 19 23:45:19 BlueRocky rtes_telemetry[900]: [2026/09/19 23:45:19:0639] N: __lws_lc_untag:  -- [vh|0|netlink] (0) 1.536hr
+Sep 19 23:45:19 BlueRocky systemd[1]: Stopping rtes.service - RTES 24-Hour Telemetry Service...
+Sep 19 23:45:19 BlueRocky rtes_telemetry[900]: ============================================================
+Sep 19 23:45:19 BlueRocky rtes_telemetry[900]:  Real-Time Embedded Telemetry System (Bluesky Jetstream)
+Sep 19 23:45:19 BlueRocky rtes_telemetry[900]:  Target: Raspberry Pi Zero W (Raspberry Pi OS Lite 32-bit)
+Sep 19 23:45:19 BlueRocky rtes_telemetry[900]: ============================================================
+Sep 19 23:45:19 BlueRocky rtes_telemetry[900]: [INIT] Circular buffer initialized with 2048 slots of 16384 bytes.
+Sep 19 23:45:19 BlueRocky rtes_telemetry[900]: [INIT] Logging metrics to metrics_log_20260919_221246.txt (symlinked as metrics_log.txt)
+Sep 19 23:45:19 BlueRocky rtes_telemetry[900]: [STATUS] All 3 threads spawned successfully. Running... (Press Ctrl+C to terminate)
+Sep 19 23:45:19 BlueRocky rtes_telemetry[900]: [SHUTDOWN] Cleaning up resources...
+Sep 19 23:45:19 BlueRocky rtes_telemetry[900]: [SHUTDOWN] Terminated cleanly. Total dropped buffer messages: 0
+Sep 19 23:45:19 BlueRocky systemd[1]: rtes.service: Deactivated successfully.
+Sep 19 23:45:19 BlueRocky systemd[1]: Stopped rtes.service - RTES 24-Hour Telemetry Service.
+Sep 19 23:45:19 BlueRocky systemd[1]: rtes.service: Consumed 4min 58.736s CPU time.
+Sep 19 23:45:19 BlueRocky systemd[1]: Started rtes.service - RTES 24-Hour Telemetry Service.
+Sep 19 23:45:20 BlueRocky rtes_telemetry[1065]: [MONITOR] Real-time scheduling SCHED_FIFO (priority 80) enabled.
+Sep 19 23:45:20 BlueRocky rtes_telemetry[1065]: [2026/09/19 23:45:19:7732] N: lws_create_context: LWS: 4.3.5-unknown, NET CLI SRV H1 H2 WS ConMon IPV6-on
+Sep 19 23:45:20 BlueRocky rtes_telemetry[1065]: [2026/09/19 23:45:19:7737] N: __lws_lc_tag:  ++ [wsi|0|pipe] (1)
+Sep 19 23:45:20 BlueRocky rtes_telemetry[1065]: [2026/09/19 23:45:19:7740] N: __lws_lc_tag:  ++ [vh|0|netlink] (1)
+Sep 19 23:45:20 BlueRocky rtes_telemetry[1065]: [2026/09/19 23:45:19:7905] N: __lws_lc_tag:  ++ [vh|1|default||-1] (2)
+Sep 19 23:45:20 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 19 23:45:20 BlueRocky rtes_telemetry[1065]: [2026/09/19 23:45:20:2092] N: __lws_lc_tag:  ++ [wsicli|0|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 19 23:45:20 BlueRocky rtes_telemetry[1065]: [2026/09/19 23:45:20:7170] N: lws_gate_accepts: on = 0
+Sep 19 23:45:20 BlueRocky rtes_telemetry[1065]: [2026/09/19 23:45:20:8951] N: lws_gate_accepts: on = 0
+Sep 19 23:45:21 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 01:27:52 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 01:27:52 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:27:52:3541] N: lws_gate_accepts: on = 0
+Sep 20 01:27:52 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:27:52:3544] N: __lws_lc_untag:  -- [wsicli|0|WS/h1/default/jetstream1.us-east.bsky.network] (0) 1.708hr
+Sep 20 01:27:52 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 01:27:52 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:27:52:3546] N: __lws_lc_tag:  ++ [wsicli|1|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 01:27:58 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:27:58:0961] N: lws_gate_accepts: on = 0
+Sep 20 01:27:58 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:27:58:2933] N: lws_gate_accepts: on = 0
+Sep 20 01:27:58 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 01:29:52 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 01:29:52 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:29:52:6394] N: lws_gate_accepts: on = 0
+Sep 20 01:29:52 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:29:52:6396] N: __lws_lc_untag:  -- [wsicli|1|WS/h1/default/jetstream1.us-east.bsky.network] (0) 2.004min
+Sep 20 01:29:52 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 01:29:52 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:29:52:6399] N: __lws_lc_tag:  ++ [wsicli|2|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 01:29:57 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:29:57:9261] N: lws_gate_accepts: on = 0
+Sep 20 01:29:58 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:29:58:1243] N: lws_gate_accepts: on = 0
+Sep 20 01:29:58 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 01:33:16 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 01:33:16 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:33:16:1661] N: lws_gate_accepts: on = 0
+Sep 20 01:33:16 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:33:16:1663] N: __lws_lc_untag:  -- [wsicli|2|WS/h1/default/jetstream1.us-east.bsky.network] (0) 3.392min
+Sep 20 01:33:16 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 01:33:16 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:33:16:1666] N: __lws_lc_tag:  ++ [wsicli|3|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 01:33:21 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:33:21:3421] N: lws_gate_accepts: on = 0
+Sep 20 01:33:21 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:33:21:5366] N: lws_gate_accepts: on = 0
+Sep 20 01:33:21 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 01:53:58 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 01:53:58 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:53:58:1272] N: lws_gate_accepts: on = 0
+Sep 20 01:53:58 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:53:58:1274] N: __lws_lc_untag:  -- [wsicli|3|WS/h1/default/jetstream1.us-east.bsky.network] (0) 20.699min
+Sep 20 01:53:58 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 01:53:58 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:53:58:1277] N: __lws_lc_tag:  ++ [wsicli|4|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 01:54:03 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:54:03:6948] N: lws_gate_accepts: on = 0
+Sep 20 01:54:03 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:54:03:8921] N: lws_gate_accepts: on = 0
+Sep 20 01:54:04 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 01:58:38 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 01:58:38 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:58:38:4780] N: lws_gate_accepts: on = 0
+Sep 20 01:58:38 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:58:38:4782] N: __lws_lc_untag:  -- [wsicli|4|WS/h1/default/jetstream1.us-east.bsky.network] (0) 4.672min
+Sep 20 01:58:38 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 01:58:38 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:58:38:4784] N: __lws_lc_tag:  ++ [wsicli|5|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 01:58:44 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:58:44:6384] N: lws_gate_accepts: on = 0
+Sep 20 01:58:44 BlueRocky rtes_telemetry[1065]: [2026/09/20 01:58:44:8303] N: lws_gate_accepts: on = 0
+Sep 20 01:58:44 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 02:01:57 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 02:01:57 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:01:57:4172] N: lws_gate_accepts: on = 0
+Sep 20 02:01:57 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:01:57:4174] N: __lws_lc_untag:  -- [wsicli|5|WS/h1/default/jetstream1.us-east.bsky.network] (0) 3.315min
+Sep 20 02:01:57 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 02:01:57 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:01:57:4176] N: __lws_lc_tag:  ++ [wsicli|6|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 02:02:02 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:02:02:5750] N: lws_gate_accepts: on = 0
+Sep 20 02:02:02 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:02:02:7740] N: lws_gate_accepts: on = 0
+Sep 20 02:02:02 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 02:05:12 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 02:05:12 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:05:12:9072] N: lws_gate_accepts: on = 0
+Sep 20 02:05:12 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:05:12:9074] N: __lws_lc_untag:  -- [wsicli|6|WS/h1/default/jetstream1.us-east.bsky.network] (0) 3.258min
+Sep 20 02:05:12 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 02:05:12 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:05:12:9077] N: __lws_lc_tag:  ++ [wsicli|7|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 02:05:18 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:05:18:1958] N: lws_gate_accepts: on = 0
+Sep 20 02:05:18 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:05:18:3967] N: lws_gate_accepts: on = 0
+Sep 20 02:05:18 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 02:10:25 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 02:10:25 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:10:25:9170] N: lws_gate_accepts: on = 0
+Sep 20 02:10:25 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:10:25:9172] N: __lws_lc_untag:  -- [wsicli|7|WS/h1/default/jetstream1.us-east.bsky.network] (0) 5.216min
+Sep 20 02:10:25 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 02:10:25 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:10:25:9175] N: __lws_lc_tag:  ++ [wsicli|8|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 02:10:31 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:10:31:1431] N: lws_gate_accepts: on = 0
+Sep 20 02:10:31 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:10:31:3379] N: lws_gate_accepts: on = 0
+Sep 20 02:10:31 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 02:13:37 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 02:13:37 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:13:37:0511] N: lws_gate_accepts: on = 0
+Sep 20 02:13:37 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:13:37:0513] N: __lws_lc_untag:  -- [wsicli|8|WS/h1/default/jetstream1.us-east.bsky.network] (0) 3.185min
+Sep 20 02:13:37 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 02:13:37 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:13:37:0516] N: __lws_lc_tag:  ++ [wsicli|9|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 02:13:42 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:13:42:1949] N: lws_gate_accepts: on = 0
+Sep 20 02:13:42 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:13:42:3903] N: lws_gate_accepts: on = 0
+Sep 20 02:13:42 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 02:52:23 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 02:52:23 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:52:23:4172] N: lws_gate_accepts: on = 0
+Sep 20 02:52:23 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:52:23:4174] N: __lws_lc_untag:  -- [wsicli|9|WS/h1/default/jetstream1.us-east.bsky.network] (0) 38.772min
+Sep 20 02:52:23 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 02:52:23 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:52:23:4176] N: __lws_lc_tag:  ++ [wsicli|a|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 02:52:28 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:52:28:7715] N: lws_gate_accepts: on = 0
+Sep 20 02:52:29 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:52:29:0407] N: lws_gate_accepts: on = 0
+Sep 20 02:52:29 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 02:55:26 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 02:55:26 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:55:26:5526] N: lws_gate_accepts: on = 0
+Sep 20 02:55:26 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:55:26:5528] N: __lws_lc_untag:  -- [wsicli|a|WS/h1/default/jetstream1.us-east.bsky.network] (0) 3.052min
+Sep 20 02:55:26 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 02:55:26 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:55:26:5530] N: __lws_lc_tag:  ++ [wsicli|b|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 02:55:31 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:55:31:7374] N: lws_gate_accepts: on = 0
+Sep 20 02:55:31 BlueRocky rtes_telemetry[1065]: [2026/09/20 02:55:31:9300] N: lws_gate_accepts: on = 0
+Sep 20 02:55:32 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 05:56:26 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 05:56:26 BlueRocky rtes_telemetry[1065]: [2026/09/20 05:56:26:2979] N: lws_gate_accepts: on = 0
+Sep 20 05:56:26 BlueRocky rtes_telemetry[1065]: [2026/09/20 05:56:26:2981] N: __lws_lc_untag:  -- [wsicli|b|WS/h1/default/jetstream1.us-east.bsky.network] (0) 3.016hr
+Sep 20 05:56:26 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 05:56:26 BlueRocky rtes_telemetry[1065]: [2026/09/20 05:56:26:2984] N: __lws_lc_tag:  ++ [wsicli|c|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 05:56:31 BlueRocky rtes_telemetry[1065]: [2026/09/20 05:56:31:8689] N: lws_gate_accepts: on = 0
+Sep 20 05:56:32 BlueRocky rtes_telemetry[1065]: [2026/09/20 05:56:32:1975] N: lws_gate_accepts: on = 0
+Sep 20 05:56:32 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 05:57:58 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 05:57:58 BlueRocky rtes_telemetry[1065]: [2026/09/20 05:57:58:1026] N: lws_gate_accepts: on = 0
+Sep 20 05:57:58 BlueRocky rtes_telemetry[1065]: [2026/09/20 05:57:58:1028] N: __lws_lc_untag:  -- [wsicli|c|WS/h1/default/jetstream1.us-east.bsky.network] (0) 1.530min
+Sep 20 05:57:58 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 05:57:58 BlueRocky rtes_telemetry[1065]: [2026/09/20 05:57:58:1030] N: __lws_lc_tag:  ++ [wsicli|d|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 05:58:03 BlueRocky rtes_telemetry[1065]: [2026/09/20 05:58:03:2635] N: lws_gate_accepts: on = 0
+Sep 20 05:58:03 BlueRocky rtes_telemetry[1065]: [2026/09/20 05:58:03:4642] N: lws_gate_accepts: on = 0
+Sep 20 05:58:03 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 06:00:59 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 06:00:59 BlueRocky rtes_telemetry[1065]: [2026/09/20 06:00:59:7501] N: lws_gate_accepts: on = 0
+Sep 20 06:00:59 BlueRocky rtes_telemetry[1065]: [2026/09/20 06:00:59:7503] N: __lws_lc_untag:  -- [wsicli|d|WS/h1/default/jetstream1.us-east.bsky.network] (0) 3.027min
+Sep 20 06:00:59 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 06:00:59 BlueRocky rtes_telemetry[1065]: [2026/09/20 06:00:59:7505] N: __lws_lc_tag:  ++ [wsicli|e|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 06:01:04 BlueRocky rtes_telemetry[1065]: [2026/09/20 06:01:04:9328] N: lws_gate_accepts: on = 0
+Sep 20 06:01:05 BlueRocky rtes_telemetry[1065]: [2026/09/20 06:01:05:1246] N: lws_gate_accepts: on = 0
+Sep 20 06:01:05 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 07:32:11 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 07:32:11 BlueRocky rtes_telemetry[1065]: [2026/09/20 07:32:11:3343] N: lws_gate_accepts: on = 0
+Sep 20 07:32:11 BlueRocky rtes_telemetry[1065]: [2026/09/20 07:32:11:3345] N: __lws_lc_untag:  -- [wsicli|e|WS/h1/default/jetstream1.us-east.bsky.network] (0) 1.519hr
+Sep 20 07:32:11 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 07:32:11 BlueRocky rtes_telemetry[1065]: [2026/09/20 07:32:11:3347] N: __lws_lc_tag:  ++ [wsicli|f|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 07:32:21 BlueRocky rtes_telemetry[1065]: [2026/09/20 07:32:21:3441] N: [wsicli|f|WS/h1/default/jetstream1.us-east.bsky.network]: lws_client_connect_3_connect: dns lookup failed -3
+Sep 20 07:32:21 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection error: Closed before conn
+Sep 20 07:32:21 BlueRocky rtes_telemetry[1065]: [2026/09/20 07:32:21:3445] N: __lws_lc_untag:  -- [wsicli|f|WS/h1/default/jetstream1.us-east.bsky.network] (0) 10.009s
+Sep 20 07:32:21 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 07:32:21 BlueRocky rtes_telemetry[1065]: [2026/09/20 07:32:21:3452] N: __lws_lc_tag:  ++ [wsicli|10|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 07:32:21 BlueRocky rtes_telemetry[1065]: [2026/09/20 07:32:21:5740] N: lws_gate_accepts: on = 0
+Sep 20 07:32:21 BlueRocky rtes_telemetry[1065]: [2026/09/20 07:32:21:7645] N: lws_gate_accepts: on = 0
+Sep 20 07:32:21 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 07:38:02 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 07:38:02 BlueRocky rtes_telemetry[1065]: [2026/09/20 07:38:02:7505] N: lws_gate_accepts: on = 0
+Sep 20 07:38:02 BlueRocky rtes_telemetry[1065]: [2026/09/20 07:38:02:7507] N: __lws_lc_untag:  -- [wsicli|10|WS/h1/default/jetstream1.us-east.bsky.network] (0) 5.690min
+Sep 20 07:38:02 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 07:38:02 BlueRocky rtes_telemetry[1065]: [2026/09/20 07:38:02:7510] N: __lws_lc_tag:  ++ [wsicli|11|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 07:38:08 BlueRocky rtes_telemetry[1065]: [2026/09/20 07:38:08:0328] N: lws_gate_accepts: on = 0
+Sep 20 07:38:08 BlueRocky rtes_telemetry[1065]: [2026/09/20 07:38:08:2258] N: lws_gate_accepts: on = 0
+Sep 20 07:38:08 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 07:40:34 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 07:40:34 BlueRocky rtes_telemetry[1065]: [2026/09/20 07:40:34:1734] N: lws_gate_accepts: on = 0
+Sep 20 07:40:34 BlueRocky rtes_telemetry[1065]: [2026/09/20 07:40:34:1736] N: __lws_lc_untag:  -- [wsicli|11|WS/h1/default/jetstream1.us-east.bsky.network] (0) 2.523min
+Sep 20 07:40:34 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 07:40:34 BlueRocky rtes_telemetry[1065]: [2026/09/20 07:40:34:1739] N: __lws_lc_tag:  ++ [wsicli|12|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 07:40:39 BlueRocky rtes_telemetry[1065]: [2026/09/20 07:40:39:5102] N: lws_gate_accepts: on = 0
+Sep 20 07:40:39 BlueRocky rtes_telemetry[1065]: [2026/09/20 07:40:39:7754] N: lws_gate_accepts: on = 0
+Sep 20 07:40:40 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 14:36:53 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 14:36:53 BlueRocky rtes_telemetry[1065]: [2026/09/20 14:36:53:2001] N: lws_gate_accepts: on = 0
+Sep 20 14:36:53 BlueRocky rtes_telemetry[1065]: [2026/09/20 14:36:53:2003] N: __lws_lc_untag:  -- [wsicli|12|WS/h1/default/jetstream1.us-east.bsky.network] (0) 6.938hr
+Sep 20 14:36:53 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 14:36:53 BlueRocky rtes_telemetry[1065]: [2026/09/20 14:36:53:2006] N: __lws_lc_tag:  ++ [wsicli|13|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 14:36:58 BlueRocky rtes_telemetry[1065]: [2026/09/20 14:36:58:8308] N: lws_gate_accepts: on = 0
+Sep 20 14:36:59 BlueRocky rtes_telemetry[1065]: [2026/09/20 14:36:59:0977] N: lws_gate_accepts: on = 0
+Sep 20 14:36:59 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 14:40:35 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 14:40:35 BlueRocky rtes_telemetry[1065]: [2026/09/20 14:40:35:2906] N: lws_gate_accepts: on = 0
+Sep 20 14:40:35 BlueRocky rtes_telemetry[1065]: [2026/09/20 14:40:35:2908] N: __lws_lc_untag:  -- [wsicli|13|WS/h1/default/jetstream1.us-east.bsky.network] (0) 3.701min
+Sep 20 14:40:35 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 14:40:35 BlueRocky rtes_telemetry[1065]: [2026/09/20 14:40:35:2911] N: __lws_lc_tag:  ++ [wsicli|14|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 14:40:40 BlueRocky rtes_telemetry[1065]: [2026/09/20 14:40:40:8341] N: lws_gate_accepts: on = 0
+Sep 20 14:40:41 BlueRocky rtes_telemetry[1065]: [2026/09/20 14:40:41:1376] N: lws_gate_accepts: on = 0
+Sep 20 14:40:42 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 14:42:45 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 14:42:45 BlueRocky rtes_telemetry[1065]: [2026/09/20 14:42:45:4144] N: lws_gate_accepts: on = 0
+Sep 20 14:42:45 BlueRocky rtes_telemetry[1065]: [2026/09/20 14:42:45:4147] N: __lws_lc_untag:  -- [wsicli|14|WS/h1/default/jetstream1.us-east.bsky.network] (0) 2.168min
+Sep 20 14:42:45 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 14:42:45 BlueRocky rtes_telemetry[1065]: [2026/09/20 14:42:45:4149] N: __lws_lc_tag:  ++ [wsicli|15|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 14:42:50 BlueRocky rtes_telemetry[1065]: [2026/09/20 14:42:50:5708] N: lws_gate_accepts: on = 0
+Sep 20 14:42:50 BlueRocky rtes_telemetry[1065]: [2026/09/20 14:42:50:7698] N: lws_gate_accepts: on = 0
+Sep 20 14:42:50 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 14:46:18 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 14:46:18 BlueRocky rtes_telemetry[1065]: [2026/09/20 14:46:18:9821] N: lws_gate_accepts: on = 0
+Sep 20 14:46:18 BlueRocky rtes_telemetry[1065]: [2026/09/20 14:46:18:9823] N: __lws_lc_untag:  -- [wsicli|15|WS/h1/default/jetstream1.us-east.bsky.network] (0) 3.559min
+Sep 20 14:46:18 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 14:46:18 BlueRocky rtes_telemetry[1065]: [2026/09/20 14:46:18:9825] N: __lws_lc_tag:  ++ [wsicli|16|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 14:46:24 BlueRocky rtes_telemetry[1065]: [2026/09/20 14:46:24:1737] N: lws_gate_accepts: on = 0
+Sep 20 14:46:24 BlueRocky rtes_telemetry[1065]: [2026/09/20 14:46:24:3688] N: lws_gate_accepts: on = 0
+Sep 20 14:46:24 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 18:50:13 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 18:50:13 BlueRocky rtes_telemetry[1065]: [2026/09/20 18:50:13:8323] N: lws_gate_accepts: on = 0
+Sep 20 18:50:13 BlueRocky rtes_telemetry[1065]: [2026/09/20 18:50:13:8325] N: __lws_lc_untag:  -- [wsicli|16|WS/h1/default/jetstream1.us-east.bsky.network] (0) 4.065hr
+Sep 20 18:50:13 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 18:50:13 BlueRocky rtes_telemetry[1065]: [2026/09/20 18:50:13:8328] N: __lws_lc_tag:  ++ [wsicli|17|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 18:50:19 BlueRocky rtes_telemetry[1065]: [2026/09/20 18:50:19:3734] N: lws_gate_accepts: on = 0
+Sep 20 18:50:19 BlueRocky rtes_telemetry[1065]: [2026/09/20 18:50:19:5664] N: lws_gate_accepts: on = 0
+Sep 20 18:50:19 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 18:51:59 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 18:51:59 BlueRocky rtes_telemetry[1065]: [2026/09/20 18:51:59:2448] N: lws_gate_accepts: on = 0
+Sep 20 18:51:59 BlueRocky rtes_telemetry[1065]: [2026/09/20 18:51:59:2450] N: __lws_lc_untag:  -- [wsicli|17|WS/h1/default/jetstream1.us-east.bsky.network] (0) 1.756min
+Sep 20 18:51:59 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 18:51:59 BlueRocky rtes_telemetry[1065]: [2026/09/20 18:51:59:2452] N: __lws_lc_tag:  ++ [wsicli|18|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 18:52:04 BlueRocky rtes_telemetry[1065]: [2026/09/20 18:52:04:3882] N: lws_gate_accepts: on = 0
+Sep 20 18:52:04 BlueRocky rtes_telemetry[1065]: [2026/09/20 18:52:04:5778] N: lws_gate_accepts: on = 0
+Sep 20 18:52:04 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 18:53:49 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 18:53:49 BlueRocky rtes_telemetry[1065]: [2026/09/20 18:53:49:1420] N: lws_gate_accepts: on = 0
+Sep 20 18:53:49 BlueRocky rtes_telemetry[1065]: [2026/09/20 18:53:49:1422] N: __lws_lc_untag:  -- [wsicli|18|WS/h1/default/jetstream1.us-east.bsky.network] (0) 1.831min
+Sep 20 18:53:49 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 18:53:49 BlueRocky rtes_telemetry[1065]: [2026/09/20 18:53:49:1424] N: __lws_lc_tag:  ++ [wsicli|19|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 18:53:54 BlueRocky rtes_telemetry[1065]: [2026/09/20 18:53:54:8852] N: lws_gate_accepts: on = 0
+Sep 20 18:53:55 BlueRocky rtes_telemetry[1065]: [2026/09/20 18:53:55:0906] N: lws_gate_accepts: on = 0
+Sep 20 18:53:55 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 19:00:18 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 19:00:18 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:00:18:2950] N: lws_gate_accepts: on = 0
+Sep 20 19:00:18 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:00:18:2952] N: __lws_lc_untag:  -- [wsicli|19|WS/h1/default/jetstream1.us-east.bsky.network] (0) 6.485min
+Sep 20 19:00:18 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 19:00:18 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:00:18:2957] N: __lws_lc_tag:  ++ [wsicli|1a|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 19:00:23 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:00:23:5958] N: lws_gate_accepts: on = 0
+Sep 20 19:00:23 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:00:23:7883] N: lws_gate_accepts: on = 0
+Sep 20 19:00:23 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 19:20:23 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 19:20:23 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:20:23:9593] N: lws_gate_accepts: on = 0
+Sep 20 19:20:23 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:20:23:9596] N: __lws_lc_untag:  -- [wsicli|1a|WS/h1/default/jetstream1.us-east.bsky.network] (0) 20.094min
+Sep 20 19:20:23 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 19:20:23 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:20:23:9598] N: __lws_lc_tag:  ++ [wsicli|1b|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 19:20:29 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:20:29:1522] N: lws_gate_accepts: on = 0
+Sep 20 19:20:29 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:20:29:3492] N: lws_gate_accepts: on = 0
+Sep 20 19:20:29 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 19:25:05 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 19:25:05 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:25:05:7925] N: lws_gate_accepts: on = 0
+Sep 20 19:25:05 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:25:05:7927] N: __lws_lc_untag:  -- [wsicli|1b|WS/h1/default/jetstream1.us-east.bsky.network] (0) 4.697min
+Sep 20 19:25:05 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 19:25:05 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:25:05:7930] N: __lws_lc_tag:  ++ [wsicli|1c|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 19:25:11 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:25:11:2077] N: lws_gate_accepts: on = 0
+Sep 20 19:25:11 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:25:11:4102] N: lws_gate_accepts: on = 0
+Sep 20 19:25:11 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 19:27:09 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 19:27:09 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:27:09:8182] N: lws_gate_accepts: on = 0
+Sep 20 19:27:09 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:27:09:8184] N: __lws_lc_untag:  -- [wsicli|1c|WS/h1/default/jetstream1.us-east.bsky.network] (0) 2.067min
+Sep 20 19:27:09 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 19:27:09 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:27:09:8187] N: __lws_lc_tag:  ++ [wsicli|1d|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 19:27:14 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:27:14:9730] N: lws_gate_accepts: on = 0
+Sep 20 19:27:15 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:27:15:1771] N: lws_gate_accepts: on = 0
+Sep 20 19:27:15 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 19:31:05 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 19:31:05 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:31:05:1014] N: lws_gate_accepts: on = 0
+Sep 20 19:31:05 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:31:05:1016] N: __lws_lc_untag:  -- [wsicli|1d|WS/h1/default/jetstream1.us-east.bsky.network] (0) 3.921min
+Sep 20 19:31:05 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 19:31:05 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:31:05:1019] N: __lws_lc_tag:  ++ [wsicli|1e|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 19:31:10 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:31:10:4208] N: lws_gate_accepts: on = 0
+Sep 20 19:31:10 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:31:10:7450] N: lws_gate_accepts: on = 0
+Sep 20 19:31:10 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 19:50:27 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 19:50:27 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:50:27:2772] N: lws_gate_accepts: on = 0
+Sep 20 19:50:27 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:50:27:2774] N: __lws_lc_untag:  -- [wsicli|1e|WS/h1/default/jetstream1.us-east.bsky.network] (0) 19.369min
+Sep 20 19:50:27 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 19:50:27 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:50:27:2777] N: __lws_lc_tag:  ++ [wsicli|1f|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 19:50:32 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:50:32:4709] N: lws_gate_accepts: on = 0
+Sep 20 19:50:32 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:50:32:6735] N: lws_gate_accepts: on = 0
+Sep 20 19:50:32 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 19:52:29 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 19:52:29 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:52:29:6471] N: lws_gate_accepts: on = 0
+Sep 20 19:52:29 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:52:29:6473] N: __lws_lc_untag:  -- [wsicli|1f|WS/h1/default/jetstream1.us-east.bsky.network] (0) 2.039min
+Sep 20 19:52:29 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 19:52:29 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:52:29:6476] N: __lws_lc_tag:  ++ [wsicli|20|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 19:52:34 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:52:34:8060] N: lws_gate_accepts: on = 0
+Sep 20 19:52:35 BlueRocky rtes_telemetry[1065]: [2026/09/20 19:52:35:0023] N: lws_gate_accepts: on = 0
+Sep 20 19:52:35 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 20:52:45 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 20:52:45 BlueRocky rtes_telemetry[1065]: [2026/09/20 20:52:45:8979] N: lws_gate_accepts: on = 0
+Sep 20 20:52:45 BlueRocky rtes_telemetry[1065]: [2026/09/20 20:52:45:8981] N: __lws_lc_untag:  -- [wsicli|20|WS/h1/default/jetstream1.us-east.bsky.network] (0) 1.004hr
+Sep 20 20:52:45 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 20:52:45 BlueRocky rtes_telemetry[1065]: [2026/09/20 20:52:45:8984] N: __lws_lc_tag:  ++ [wsicli|21|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 20:52:51 BlueRocky rtes_telemetry[1065]: [2026/09/20 20:52:51:0943] N: lws_gate_accepts: on = 0
+Sep 20 20:52:51 BlueRocky rtes_telemetry[1065]: [2026/09/20 20:52:51:2925] N: lws_gate_accepts: on = 0
+Sep 20 20:52:51 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 20:55:32 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 20:55:32 BlueRocky rtes_telemetry[1065]: [2026/09/20 20:55:32:5329] N: lws_gate_accepts: on = 0
+Sep 20 20:55:32 BlueRocky rtes_telemetry[1065]: [2026/09/20 20:55:32:5331] N: __lws_lc_untag:  -- [wsicli|21|WS/h1/default/jetstream1.us-east.bsky.network] (0) 2.777min
+Sep 20 20:55:32 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 20:55:32 BlueRocky rtes_telemetry[1065]: [2026/09/20 20:55:32:5333] N: __lws_lc_tag:  ++ [wsicli|22|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 20:55:37 BlueRocky rtes_telemetry[1065]: [2026/09/20 20:55:37:7145] N: lws_gate_accepts: on = 0
+Sep 20 20:55:37 BlueRocky rtes_telemetry[1065]: [2026/09/20 20:55:37:9128] N: lws_gate_accepts: on = 0
+Sep 20 20:55:38 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 20:57:14 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 20:57:14 BlueRocky rtes_telemetry[1065]: [2026/09/20 20:57:14:4775] N: lws_gate_accepts: on = 0
+Sep 20 20:57:14 BlueRocky rtes_telemetry[1065]: [2026/09/20 20:57:14:4777] N: __lws_lc_untag:  -- [wsicli|22|WS/h1/default/jetstream1.us-east.bsky.network] (0) 1.699min
+Sep 20 20:57:14 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 20:57:14 BlueRocky rtes_telemetry[1065]: [2026/09/20 20:57:14:4780] N: __lws_lc_tag:  ++ [wsicli|23|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 20:57:19 BlueRocky rtes_telemetry[1065]: [2026/09/20 20:57:19:6199] N: lws_gate_accepts: on = 0
+Sep 20 20:57:19 BlueRocky rtes_telemetry[1065]: [2026/09/20 20:57:19:8286] N: lws_gate_accepts: on = 0
+Sep 20 20:57:19 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 21:29:27 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 21:29:27 BlueRocky rtes_telemetry[1065]: [2026/09/20 21:29:27:8822] N: lws_gate_accepts: on = 0
+Sep 20 21:29:27 BlueRocky rtes_telemetry[1065]: [2026/09/20 21:29:27:8824] N: __lws_lc_untag:  -- [wsicli|23|WS/h1/default/jetstream1.us-east.bsky.network] (0) 32.223min
+Sep 20 21:29:27 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 21:29:27 BlueRocky rtes_telemetry[1065]: [2026/09/20 21:29:27:8827] N: __lws_lc_tag:  ++ [wsicli|24|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 21:29:33 BlueRocky rtes_telemetry[1065]: [2026/09/20 21:29:33:0705] N: lws_gate_accepts: on = 0
+Sep 20 21:29:33 BlueRocky rtes_telemetry[1065]: [2026/09/20 21:29:33:3238] N: lws_gate_accepts: on = 0
+Sep 20 21:29:33 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 21:33:59 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 21:33:59 BlueRocky rtes_telemetry[1065]: [2026/09/20 21:33:59:6447] N: lws_gate_accepts: on = 0
+Sep 20 21:33:59 BlueRocky rtes_telemetry[1065]: [2026/09/20 21:33:59:6449] N: __lws_lc_untag:  -- [wsicli|24|WS/h1/default/jetstream1.us-east.bsky.network] (0) 4.529min
+Sep 20 21:33:59 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 21:33:59 BlueRocky rtes_telemetry[1065]: [2026/09/20 21:33:59:6452] N: __lws_lc_tag:  ++ [wsicli|25|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 21:34:04 BlueRocky rtes_telemetry[1065]: [2026/09/20 21:34:04:8360] N: lws_gate_accepts: on = 0
+Sep 20 21:34:05 BlueRocky rtes_telemetry[1065]: [2026/09/20 21:34:05:0296] N: lws_gate_accepts: on = 0
+Sep 20 21:34:05 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 22:44:03 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 22:44:03 BlueRocky rtes_telemetry[1065]: [2026/09/20 22:44:03:2122] N: lws_gate_accepts: on = 0
+Sep 20 22:44:03 BlueRocky rtes_telemetry[1065]: [2026/09/20 22:44:03:2124] N: __lws_lc_untag:  -- [wsicli|25|WS/h1/default/jetstream1.us-east.bsky.network] (0) 1.167hr
+Sep 20 22:44:03 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 22:44:03 BlueRocky rtes_telemetry[1065]: [2026/09/20 22:44:03:2126] N: __lws_lc_tag:  ++ [wsicli|26|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 22:44:08 BlueRocky rtes_telemetry[1065]: [2026/09/20 22:44:08:8152] N: lws_gate_accepts: on = 0
+Sep 20 22:44:09 BlueRocky rtes_telemetry[1065]: [2026/09/20 22:44:09:0277] N: lws_gate_accepts: on = 0
+Sep 20 22:44:09 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 22:48:35 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 22:48:35 BlueRocky rtes_telemetry[1065]: [2026/09/20 22:48:35:5319] N: lws_gate_accepts: on = 0
+Sep 20 22:48:35 BlueRocky rtes_telemetry[1065]: [2026/09/20 22:48:35:5321] N: __lws_lc_untag:  -- [wsicli|26|WS/h1/default/jetstream1.us-east.bsky.network] (0) 4.538min
+Sep 20 22:48:35 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 22:48:35 BlueRocky rtes_telemetry[1065]: [2026/09/20 22:48:35:5324] N: __lws_lc_tag:  ++ [wsicli|27|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 22:48:41 BlueRocky rtes_telemetry[1065]: [2026/09/20 22:48:41:0649] N: lws_gate_accepts: on = 0
+Sep 20 22:48:41 BlueRocky rtes_telemetry[1065]: [2026/09/20 22:48:41:2712] N: lws_gate_accepts: on = 0
+Sep 20 22:48:41 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 22:52:40 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 22:52:40 BlueRocky rtes_telemetry[1065]: [2026/09/20 22:52:40:3522] N: lws_gate_accepts: on = 0
+Sep 20 22:52:40 BlueRocky rtes_telemetry[1065]: [2026/09/20 22:52:40:3524] N: __lws_lc_untag:  -- [wsicli|27|WS/h1/default/jetstream1.us-east.bsky.network] (0) 4.080min
+Sep 20 22:52:40 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 22:52:40 BlueRocky rtes_telemetry[1065]: [2026/09/20 22:52:40:3527] N: __lws_lc_tag:  ++ [wsicli|28|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 22:52:45 BlueRocky rtes_telemetry[1065]: [2026/09/20 22:52:45:6781] N: lws_gate_accepts: on = 0
+Sep 20 22:52:45 BlueRocky rtes_telemetry[1065]: [2026/09/20 22:52:45:8759] N: lws_gate_accepts: on = 0
+Sep 20 22:52:46 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 23:36:38 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 23:36:38 BlueRocky rtes_telemetry[1065]: [2026/09/20 23:36:38:8542] N: lws_gate_accepts: on = 0
+Sep 20 23:36:38 BlueRocky rtes_telemetry[1065]: [2026/09/20 23:36:38:8544] N: __lws_lc_untag:  -- [wsicli|28|WS/h1/default/jetstream1.us-east.bsky.network] (0) 43.975min
+Sep 20 23:36:38 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 23:36:38 BlueRocky rtes_telemetry[1065]: [2026/09/20 23:36:38:8547] N: __lws_lc_tag:  ++ [wsicli|29|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 23:36:44 BlueRocky rtes_telemetry[1065]: [2026/09/20 23:36:44:0408] N: lws_gate_accepts: on = 0
+Sep 20 23:36:44 BlueRocky rtes_telemetry[1065]: [2026/09/20 23:36:44:2336] N: lws_gate_accepts: on = 0
+Sep 20 23:36:44 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 20 23:38:23 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 20 23:38:23 BlueRocky rtes_telemetry[1065]: [2026/09/20 23:38:23:1671] N: lws_gate_accepts: on = 0
+Sep 20 23:38:23 BlueRocky rtes_telemetry[1065]: [2026/09/20 23:38:23:1674] N: __lws_lc_untag:  -- [wsicli|29|WS/h1/default/jetstream1.us-east.bsky.network] (0) 1.738min
+Sep 20 23:38:23 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 20 23:38:23 BlueRocky rtes_telemetry[1065]: [2026/09/20 23:38:23:1676] N: __lws_lc_tag:  ++ [wsicli|2a|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 20 23:38:28 BlueRocky rtes_telemetry[1065]: [2026/09/20 23:38:28:3620] N: lws_gate_accepts: on = 0
+Sep 20 23:38:28 BlueRocky rtes_telemetry[1065]: [2026/09/20 23:38:28:6333] N: lws_gate_accepts: on = 0
+Sep 20 23:38:28 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 21 00:01:18 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 21 00:01:18 BlueRocky rtes_telemetry[1065]: [2026/09/21 00:01:18:2430] N: lws_gate_accepts: on = 0
+Sep 21 00:01:18 BlueRocky rtes_telemetry[1065]: [2026/09/21 00:01:18:2432] N: __lws_lc_untag:  -- [wsicli|2a|WS/h1/default/jetstream1.us-east.bsky.network] (0) 22.917min
+Sep 21 00:01:18 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connecting to wss://jetstream1.us-east.bsky.network:443/subscribe?wantedCollections=app.bsky.feed.post...
+Sep 21 00:01:18 BlueRocky rtes_telemetry[1065]: [2026/09/21 00:01:18:2435] N: __lws_lc_tag:  ++ [wsicli|2b|WS/h1/default/jetstream1.us-east.bsky.network] (1)
+Sep 21 00:01:23 BlueRocky rtes_telemetry[1065]: [2026/09/21 00:01:23:3987] N: lws_gate_accepts: on = 0
+Sep 21 00:01:23 BlueRocky rtes_telemetry[1065]: [2026/09/21 00:01:23:5903] N: lws_gate_accepts: on = 0
+Sep 21 00:01:23 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connected to Bluesky Jetstream WebSocket.
+Sep 21 00:03:07 BlueRocky rtes_telemetry[1065]: [2026/09/21 00:03:07:8901] N: __lws_lc_untag:  -- [wsi|0|pipe] (0) 1.012d
+Sep 21 00:03:07 BlueRocky rtes_telemetry[1065]: [PRODUCER] Connection closed. Will attempt reconnect.
+Sep 21 00:03:07 BlueRocky rtes_telemetry[1065]: [2026/09/21 00:03:07:8908] N: lws_gate_accepts: on = 0
+Sep 21 00:03:07 BlueRocky rtes_telemetry[1065]: [2026/09/21 00:03:07:9399] N: __lws_lc_untag:  -- [vh|1|default||-1] (1) 1.012d
+Sep 21 00:03:07 BlueRocky rtes_telemetry[1065]: [2026/09/21 00:03:07:9400] N: __lws_lc_untag:  -- [wsicli|2b|WS/h1/default/jetstream1.us-east.bsky.network] (0) 1.828min
+Sep 21 00:03:07 BlueRocky rtes_telemetry[1065]: [2026/09/21 00:03:07:9402] N: __lws_lc_untag:  -- [vh|0|netlink] (0) 1.012d
+Sep 21 00:03:07 BlueRocky systemd[1]: Stopping rtes.service - RTES 24-Hour Telemetry Service...
+Sep 21 00:03:08 BlueRocky rtes_telemetry[1065]: ============================================================
+Sep 21 00:03:08 BlueRocky rtes_telemetry[1065]:  Real-Time Embedded Telemetry System (Bluesky Jetstream)
+Sep 21 00:03:08 BlueRocky rtes_telemetry[1065]:  Target: Raspberry Pi Zero W (Raspberry Pi OS Lite 32-bit)
+Sep 21 00:03:08 BlueRocky rtes_telemetry[1065]: ============================================================
+Sep 21 00:03:08 BlueRocky rtes_telemetry[1065]: [INIT] Circular buffer initialized with 2048 slots of 16384 bytes.
+Sep 21 00:03:08 BlueRocky rtes_telemetry[1065]: [INIT] Logging metrics to metrics_log_20260919_234519.txt (symlinked as metrics_log.txt)
+Sep 21 00:03:08 BlueRocky rtes_telemetry[1065]: [STATUS] All 3 threads spawned successfully. Running... (Press Ctrl+C to terminate)
+Sep 21 00:03:08 BlueRocky rtes_telemetry[1065]: [SHUTDOWN] Cleaning up resources...
+Sep 21 00:03:08 BlueRocky rtes_telemetry[1065]: [SHUTDOWN] Terminated cleanly. Total dropped buffer messages: 0
+Sep 21 00:03:08 BlueRocky systemd[1]: rtes.service: Deactivated successfully.
+Sep 21 00:03:08 BlueRocky systemd[1]: Stopped rtes.service - RTES 24-Hour Telemetry Service.
+Sep 21 00:03:08 BlueRocky systemd[1]: rtes.service: Consumed 1h 13min 29.579s CPU time.

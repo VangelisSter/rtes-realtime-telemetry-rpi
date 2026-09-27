@@ -1,0 +1,35 @@
+# =============================================================================
+# .gitignore for RTES Final Task Telemetry Project
+# =============================================================================
+
+# --- Compiled Binaries & Object Files ---
+*.o
+*.obj
+rtes_telemetry
+*.exe
+
+# --- Python & Virtual Environments ---
+__pycache__/
+.venv/
+
+
+# --- Temporary & Backup Logs ---
+# Keep official 24-hour log file and symlink
+metrics_log_20260919_234519.txt
+metrics_log_20260920_000000.txt
+!metrics_log.txt
+metrics_log_backup_*.txt
+*.tmp
+*.bak
+rtes_execution.log
+rtes_test.log
+
+# --- Shell Scripts ---
+*.sh
+
+# -- Misc ---
+
+rtes.txt
+report.tex
+plot_metrics.m
+merge_metrics.py
